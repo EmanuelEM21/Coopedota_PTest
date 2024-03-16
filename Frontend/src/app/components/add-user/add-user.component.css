@@ -1,0 +1,20 @@
+.title {
+    padding: 30px;
+    text-align: center;
+}
+
+mat-form-field {
+    width: 100%;
+    margin: 30%;
+}
+
+.buttons {
+    border: solid black 1px;
+    border-radius: 1ch;
+    background-color: white;
+    width: 10%;
+}
+
+.saveButton {
+    margin-right: 15px;
+}

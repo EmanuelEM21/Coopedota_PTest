@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC30C66B-F9B7-4425-A001-28837485B029}|Backend_CRUD\\Backend_CRUD.csproj|c:\\users\\emanu\\documents\\coopedota_ptest\\backend_crud\\backend_crud\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC30C66B-F9B7-4425-A001-28837485B029}|Backend_CRUD\\Backend_CRUD.csproj|solutionrelative:backend_crud\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC30C66B-F9B7-4425-A001-28837485B029}|Backend_CRUD\\Backend_CRUD.csproj|c:\\users\\emanu\\documents\\coopedota_ptest\\backend_crud\\backend_crud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC30C66B-F9B7-4425-A001-28837485B029}|Backend_CRUD\\Backend_CRUD.csproj|solutionrelative:backend_crud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC30C66B-F9B7-4425-A001-28837485B029}|Backend_CRUD\\Backend_CRUD.csproj|c:\\users\\emanu\\documents\\coopedota_ptest\\backend_crud\\backend_crud\\models\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC30C66B-F9B7-4425-A001-28837485B029}|Backend_CRUD\\Backend_CRUD.csproj|solutionrelative:backend_crud\\models\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\Backend_CRUD\\Models\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Backend_CRUD\\Models\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\Backend_CRUD\\Models\\AplicationDbContext.cs",
+              "RelativeToolTip": "Backend_CRUD\\Models\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:29:43.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\Backend_CRUD\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend_CRUD\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\Backend_CRUD\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend_CRUD\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T19:59:58.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\Backend_CRUD\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Backend_CRUD\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\emanu\\Documents\\Coopedota_PTest\\Backend_CRUD\\Backend_CRUD\\Models\\User.cs",
+              "RelativeToolTip": "Backend_CRUD\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:27:59.674Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

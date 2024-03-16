@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+}
+
+.tableContainer {
+    margin: 0 5%;
+}
+
+td, th {
+    width: 15%;
+}
+
+.actions {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addButton {
+    border: solid black 1px;
+    border-radius: 1ch;
+    background-color: white;
+    padding: 10px;
+    width: 45%;
+}

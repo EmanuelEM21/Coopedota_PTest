@@ -1,0 +1,44 @@
+<div class="title">
+    @if(id == 0) {
+    <h1><b>ADD NEW USER</b></h1>
+    } @else {
+    <h1><b>UPDATE USER</b></h1>
+    }
+    <hr />
+</div>
+<div>
+    <form [formGroup]="form" (ngSubmit)="addUser()">
+        <mat-grid-list cols="1" rowHeight="80px">
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
+                    <mat-label>User Name</mat-label>
+                    <input matInput autocomplete="off" formControlName="userName" required>
+                    @if (form.get('userName')?.hasError('required')) {
+                    <mat-error>Please enter the user name</mat-error>
+                    }
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field>
+                    <mat-label>Enter your email</mat-label>
+                    <input matInput autocomplete="off" formControlName="email" placeholder="user@gmail.com" required>
+                    @if (form.get('email')?.hasError('required')) {
+                    <mat-error>Please enter the user email</mat-error>
+                    } @else if (form.get('email')?.hasError('email')) {
+                    <mat-error>Please enter a valid email</mat-error>
+                    }
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <button type="submit" mat-button class="buttons saveButton" [disabled]="form.invalid">
+                    @if (id == 0) {
+                    SAVE
+                    } @else {
+                    UPDATE
+                    }
+                </button>
+                <a href="/usersList" mat-button class="buttons">RETURN</a>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </form>
+</div>
